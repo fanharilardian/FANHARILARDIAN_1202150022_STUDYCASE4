@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="penjelasanProyek">
+        Proyek Background Task ini menggunakan AsyncTask. Persayaratan yang harus dipenuhi adalah sebagai berikut :
+        \n\n1. Terdapat menu List Nama Mahasiswa dan Pencari Gambar
+        \n\n2. Pada List Nama Mahasiswa terdapat tombol untuk memuat data Array ke dalam ListView
+        \n  a. Terdapat Progress dialog dengan Spinner dan persentase
+        \n  b. Terdapat tombol Cancel Process pada ProgressDialog
+        \n\n3. Pada Pencari Gambar terdapat EditText untuk menginputkan link gambar dan Button untuk melakukan aksi pencarian gambar
+
+    </string>
+    <string-array name="ARRAY">
+        <item>Fanharil Ardian</item>
+        <item>Ridho Rahmadinanto</item>
+        <item>Triana Nada</item>
+        <item>Suci Laila</item>
+        <item>Radio Mahmud</item>
+        <item>Rian Durzaman</item>
+        <item>Rock Lee</item>
+        <item>Iwabe </item>
+        <item>Adiknya Ridho</item>
+        <item>Tania Almira</item>
+        <item>Mochamad Riski</item>
+        <item>Miftah Fajar</item>
+        <item>Bapak Kosan Saya</item>
+        <item>Nur Azizah</item>
+        <item>Ihza Ramadhan</item>
+        <item>Naufal Cahyo</item>
+        <item>Wildan Faudzan</item>
+        <item>Zahra Maida</item>
+        <item>Abid Ghozi</item>
+        <item>Ariq Adyavi</item>
+        <item>Rifqi Syafi Ardhani</item>
+        <item>Winarko</item>
+        <item>Vian Endrayudha</item>
+        <item>Adrian Hartanto Osman</item>
+        <item>Aldi Fernando</item>
+        <item>Jarot Dwi Fajar</item>
+        <item>Fatna Ika Sari</item>
+        <item>Tursina Widiastuti</item>
+        <item>Anugrah Dewa</item>
+        <item>Yusnita Kurniawati</item>
+        <item>Sri Murni Ninggsih</item>
+        <item>Sungkono</item>
+        <item>Ridho Kumbara</item>
+        <item>Candra Ari Setiawan</item>
+        <item>Tantowi Yahya</item>
+        <item>Asna Puspita Bunga</item>
+        <item>Ginanjar Suryo Saputro</item>
+        <item>Fiqih Muhammad Haekal</item>
+        <item>Helmi Khairullah</item>
+    </string-array>
+</resources>
