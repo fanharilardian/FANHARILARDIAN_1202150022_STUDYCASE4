@@ -49,8 +49,8 @@ public class PencariGambar extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             progressDialog = new ProgressDialog(PencariGambar.this);
-            progressDialog.setTitle("Cari Gambar");
-            progressDialog.setMessage("Loading Gambar");
+            progressDialog.setTitle("Cari gambar");
+            progressDialog.setMessage("Memuat Gambar");
             // atur total yang yang muat agar tidak ditentukan
             progressDialog.setIndeterminate(false);
             progressDialog.show();
