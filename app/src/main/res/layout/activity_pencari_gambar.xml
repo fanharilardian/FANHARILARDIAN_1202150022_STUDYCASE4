@@ -42,7 +42,7 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/ed_cari_gambar"
+        android:id="@+id/txtImgURL"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/pencariGambar"
@@ -54,22 +54,22 @@
         android:singleLine="true" />
 
     <Button
-        android:id="@+id/btn_cari"
+        android:id="@+id/btnImgLoad"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ed_cari_gambar"
-        android:layout_centerHorizontal="true"
+        android:layout_alignEnd="@+id/backgroundtask"
+        android:layout_below="@+id/txtImgURL"
         android:layout_gravity="center_horizontal"
         android:onClick="cariGambar"
         android:text="Klik untuk mencari gambar"
         android:textColor="@android:color/background_light" />
 
     <ImageView
-        android:id="@+id/iv_cari"
+        android:id="@+id/lblImg"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_below="@+id/btn_cari"
+        android:layout_below="@+id/btnImgLoad"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center" />
 
